@@ -1,3 +1,3 @@
 <?php
 
-Timber::render('index.twig');
+$timber::render('index.twig');
