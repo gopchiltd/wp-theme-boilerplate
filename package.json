@@ -1,0 +1,19 @@
+{
+  "name": "tbiinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss static/css/tailwind.css -o style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^1.4.6"
+  }
+}
